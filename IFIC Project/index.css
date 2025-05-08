@@ -1,0 +1,8 @@
+.personal{
+    position: relative;
+    display: block;
+}
+.drop-down{
+    position: absolute;
+    right: 0px;
+}
