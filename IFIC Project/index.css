@@ -1,8 +1,14 @@
-.personal{
-    position: relative;
-    display: block;
+.nav{
+    font-size: 14px;
+    
 }
-.drop-down{
-    position: absolute;
-    right: 0px;
+.nav a{
+    color: lightseagreen;
+    margin-left: 30px;
+}
+.nav a:hover{
+    color: lightseagreen;
+}
+.logo{
+    font-weight: bolder;
 }
