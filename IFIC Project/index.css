@@ -49,6 +49,7 @@ display: block;
 li a {
     color: white;
 } */
+ /* Service unbound */
 .text-container {
     position: relative;
     height: 200px; /* Adjust as needed */
@@ -99,6 +100,7 @@ li a {
     text-align: center;
     padding: 2rem 0;
     overflow: hidden;
+    /* margin-left: 0%; */
   }
 
   .background-text {
@@ -106,7 +108,8 @@ li a {
     font-weight: 700;
     color: rgba(0, 0, 0, 0.05); /* Faded effect */
     position: absolute;
-    top: 40%;
+    top: 32%;
+    left: 0%;
     /* left: 10%; */
     /* transform: translate(-50%, -50%); */
     white-space: nowrap;
@@ -115,11 +118,13 @@ li a {
 
   .foreground-text {
     position: relative;
+    /* left: .5%; */
     z-index: 2;
     font-weight: 700;
     color: #3a3a3a;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     letter-spacing: 0.5px;
+    
   }
 
   .underline {
