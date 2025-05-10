@@ -49,3 +49,82 @@ display: block;
 li a {
     color: white;
 } */
+.text-container {
+    position: relative;
+    height: 200px; /* Adjust as needed */
+    display: flex;
+    align-items: center;
+    padding-left: 2rem; /* Space from the left edge */
+  }
+
+  .background-text {
+    font-size: 7rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.05); /* Faded background text */
+    position: absolute;
+    top: 50%;
+    left: 2rem;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+
+  .foreground-text {
+    position: relative;
+    z-index: 2;
+    font-weight: bold;
+    color: #333;
+    margin-left: 50px;
+  }
+
+  /* next part */
+
+  .service-box {
+    background-color: #007A3D; /* Dark green */
+    color: white;
+    text-align: center;
+    padding: .5rem 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .service-box i {
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 24px;
+  }
+
+  .banner-container {
+    position: relative;
+    text-align: center;
+    padding: 2rem 0;
+    overflow: hidden;
+  }
+
+  .background-text {
+    font-size: 7rem;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.05); /* Faded effect */
+    position: absolute;
+    top: 40%;
+    /* left: 10%; */
+    /* transform: translate(-50%, -50%); */
+    white-space: nowrap;
+    z-index: 1;
+  }
+
+  .foreground-text {
+    position: relative;
+    z-index: 2;
+    font-weight: 700;
+    color: #3a3a3a;
+    font-size: 1.5rem;
+    letter-spacing: 0.5px;
+  }
+
+  .underline {
+    width: 30px;
+    height: 3px;
+    background-color: #007A3D;
+    margin: 6px auto 0;
+  }
