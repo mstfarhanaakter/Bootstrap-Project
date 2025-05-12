@@ -1,6 +1,5 @@
 .nav {
     font-size: 14px;
-
 }
 
 .nav a {
@@ -58,7 +57,9 @@
 li a {
     color: white;
 } */
+
 /* Service unbound */
+
 .text-container {
     position: relative;
     height: 200px;
