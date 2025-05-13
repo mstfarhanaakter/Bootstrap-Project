@@ -191,12 +191,71 @@ li a {
 
 /*  */
 .highlight-red {
-      color: #a00000;
-      text-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
-      animation: pulse 2.5s infinite;
-    }
-    .navbar-brand{
-        font-weight: bolder;
-        font-family: Arial, Helvetica, sans-serif;
-        
-    }
+    color: #a00000;
+    text-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
+    animation: pulse 3.5s infinite;
+}
+
+.navbar-brand {
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.nav-link:hover {
+    color: #005f2d;
+
+
+}
+
+/* Change dropdown background */
+.dropdown-menu {
+    background-color: #018646;
+    /* Dark green */
+    position: relative;
+    
+
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    transition: 0.3ms;
+    color: #018646;
+}
+.dropdown:hover .dropdown-submenu{
+    display: none;
+}
+
+.dropdown-submenu .dropdown-menu {
+    transition: opacity 0.2s ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.dropdown-submenu:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Change dropdown item text color */
+.dropdown-menu .dropdown-item {
+    background-color: #018646;
+    color: #fff;
+    /* White text */
+}
+
+/* Hover effect */
+.dropdown-menu .dropdown-item:hover {
+    background-color: #EC2029;
+    /* Darker green on hover */
+    color: #018646;
+}
+
+.dropdown-menu .dropdown-item {
+    border-bottom: 2px solid white;
+    /* Light gray divider */
+    /* padding: 2px; */
+    /* Optional: spacing */
+
+}
+
+
