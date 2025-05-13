@@ -306,3 +306,31 @@ li a {
       font-size: 35px;
       color: #333;
     }
+
+.banner{
+    position: relative;
+}
+.banner p{
+    position: absolute;
+    top: 10%;
+    left:8%;
+    color: white;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.banner marquee{
+    position: absolute;
+    right: 0px;
+    top: 30%;
+    color: white;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+
+.banner button{
+    position: absolute;
+    bottom: 35%;
+    left: 8%;
+    color: white;
+}
