@@ -265,16 +265,16 @@ li a {
       text-align: left;
       height: 150px;
       
-    }
+}
 
-    .text-background1 {
+.text-background1 {
       font-size: 110px;
       color: rgba(0, 0, 0, 0.05); /* Light faded color */
       font-weight: 800;
       letter-spacing: 5px;
-    }
+}
 
-    .text-foreground1 {
+.text-foreground1 {
       position: absolute;
       top: 65%;
       left: 30%;
@@ -287,9 +287,9 @@ li a {
       position: relative;
       text-align: right;
       height: 150px;
-    }
+}
 
-    .text-background2 {
+.text-background2 {
       font-size: 110px;
       color: rgba(0, 0, 0, 0.05); /* Light faded color */
       font-weight: 800;
@@ -297,7 +297,7 @@ li a {
       margin: 0px;
     }
 
-    .text-foreground2 {
+.text-foreground2 {
      position: absolute;
       top: 65%;
       right: 35%;
@@ -306,7 +306,6 @@ li a {
       font-size: 35px;
       color: #333;
     }
-
 .banner{
     position: relative;
 }
@@ -326,8 +325,6 @@ li a {
     font-weight: bolder;
     font-size: 2rem;
 }
-
-
 .banner button{
     position: absolute;
     bottom: 35%;
