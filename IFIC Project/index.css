@@ -213,15 +213,17 @@ li a {
     background-color: #018646;
     /* Dark green */
     position: relative;
-    
+
 
 }
+
 .dropdown:hover .dropdown-menu {
     display: block;
     transition: 0.3ms;
     color: #018646;
 }
-.dropdown:hover .dropdown-submenu{
+
+.dropdown:hover .dropdown-submenu {
     display: none;
 }
 
@@ -257,67 +259,74 @@ li a {
     /* Optional: spacing */
 
 }
+
 /*  */
 /*  */
 /*  */
 .text-container1 {
-      position: relative;
-      text-align: left;
-      height: 150px;
-      
+    position: relative;
+    text-align: left;
+    height: 150px;
+
 }
 
 .text-background1 {
-      font-size: 110px;
-      color: rgba(0, 0, 0, 0.05); /* Light faded color */
-      font-weight: 800;
-      letter-spacing: 5px;
+    font-size: 110px;
+    color: rgba(0, 0, 0, 0.05);
+    /* Light faded color */
+    font-weight: 800;
+    letter-spacing: 5px;
 }
 
 .text-foreground1 {
-      position: absolute;
-      top: 65%;
-      left: 30%;
-      transform: translate(-50%, -50%);
-      font-weight: 700;
-      font-size: 35px;
-      color: #333;
-    }
+    position: absolute;
+    top: 65%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    font-size: 35px;
+    color: #333;
+}
+
 .text-container2 {
-      position: relative;
-      text-align: right;
-      height: 150px;
+    position: relative;
+    text-align: right;
+    height: 150px;
 }
 
 .text-background2 {
-      font-size: 110px;
-      color: rgba(0, 0, 0, 0.05); /* Light faded color */
-      font-weight: 800;
-      letter-spacing: 5px;
-      margin: 0px;
-    }
+    font-size: 110px;
+    color: rgba(0, 0, 0, 0.05);
+    /* Light faded color */
+    font-weight: 800;
+    letter-spacing: 5px;
+    margin: 0px;
+}
 
 .text-foreground2 {
-     position: absolute;
-      top: 65%;
-      right: 35%;
-      transform: translate(-50%, -50%);
-      font-weight: 700;
-      font-size: 35px;
-      color: #333;
-    }
-.banner{
+    position: absolute;
+    top: 65%;
+    right: 35%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    font-size: 35px;
+    color: #333;
+}
+
+.banner {
     position: relative;
 }
-.banner p{
+
+.banner p {
     position: absolute;
     top: 10%;
-    left:8%;
+    left: 8%;
     color: white;
     font-weight: bolder;
     font-size: 2rem;
 }
-.banner marquee{
+
+.banner marquee {
     position: absolute;
     right: 0px;
     top: 30%;
@@ -325,9 +334,103 @@ li a {
     font-weight: bolder;
     font-size: 2rem;
 }
-.banner button{
+
+.banner button {
     position: absolute;
     bottom: 35%;
     left: 8%;
     color: white;
+}
+
+/* Fresh new starts here */
+.text-container3 {
+    position: relative;
+    text-align: left;
+    height: 150px;
+
+}
+
+.text-background3 {
+    font-size: 100px;
+    color: rgba(0, 0, 0, 0.05);
+    /* Light faded color */
+    font-weight: 800;
+    letter-spacing: 5px;
+}
+
+.text-foreground3 {
+    position: absolute;
+    top: 55%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    font-size: 30px;
+    color: #333;
+}
+
+.date {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #ddd;
+    line-height: 1;
+}
+
+.date small {
+    display: inline;
+    font-size: 1.3rem;
+    color: #bbb;
+}
+
+.read-more {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+    color: #00793F;
+}
+
+.heading {
+    color: grey;
+}
+
+.heading:hover {
+    color: #00793F;
+}
+
+.textindent {
+    text-indent: 33%;
+    padding-top: 10px;
+    padding-bottom: 2px;
+
+}
+
+.textindent1 {
+    text-indent: 15%;
+}
+
+input {
+    width: 270px;
+    border: 1px solid gray;
+    height: 40px;
+}
+
+.submit {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.submit:hover {
+
+    color: #00793F;
+}
+
+.underline1 {
+    width: 30px;
+    height: 3px;
+    background-color: #007A3D;
+    margin: 6px auto 0;
 }
