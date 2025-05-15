@@ -428,9 +428,29 @@ input {
     color: #00793F;
 }
 
-.underline1 {
-    width: 30px;
-    height: 3px;
-    background-color: #007A3D;
-    margin: 6px auto 0;
+
+
+/* fresh new ends here */
+/* sub-footer starts here */
+.footer-section {
+    background-color: #262c2f;
+    padding: 20px 0;
 }
+
+.footer-link {
+    color: #ffffff;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.footer-link::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 2px;
+    background-color: #00916a;
+    margin-right: 10px;
+}
+
+/* sub footer ends here */
