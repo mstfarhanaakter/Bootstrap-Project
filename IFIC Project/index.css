@@ -457,3 +457,6 @@ input {
 .all:hover{
     color: #018646 ;
 }
+.font {
+    font-size: 12px;
+}
