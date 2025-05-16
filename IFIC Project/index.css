@@ -513,7 +513,8 @@ input {
     /* .breadcrumb-custom .home {
       color: #8BC34A; /* Green color like the original */
      */
-/* digital platform page */
+/* digital platform page box starts here */
+
 .image{
     position: relative;
 }
@@ -526,3 +527,39 @@ input {
     height: 140px;
     
 }
+/* digital platform page box ends here */
+
+/* personal banking page box starts here */
+.image{
+    position: relative;
+}
+.box3{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 54%;
+    left: 5%;
+    width: 45%;
+    height: 140px;
+    
+}
+/* #text:hover{
+    color: #018646;
+    background-color: #a00000;
+} */
+
+/* personal banking page box ends here */
+
+/* get in touch page box starts here */
+.image{
+    position: relative;
+}
+.box4{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 43%;
+    left: 5%;
+    width: 45%;
+    height: 140px;
+    
+}
+/* get in touch page box ends here */
