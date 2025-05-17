@@ -347,16 +347,18 @@ li a {
 .text-container3 {
     position: relative;
     text-align: left;
-    height: 150px;
+    /* height: 250px; */
+   
 
 }
 
 .text-background3 {
-    font-size: 100px;
+    font-size: 110px;
     color: rgba(0, 0, 0, 0.05);
     /* Light faded color */
     font-weight: 800;
     letter-spacing: 5px;
+     /* padding-top: 0px; */
 }
 
 .text-foreground3 {
