@@ -190,11 +190,13 @@ li a {
 }
 
 /*  */
+
 .highlight-red {
     color: #a00000;
     text-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
-    animation: pulse 3.5s infinite;
+    animation: pulse 5.5s infinite;
 }
+
 
 .navbar-brand {
     font-weight: bolder;
