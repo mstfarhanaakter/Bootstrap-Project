@@ -317,7 +317,7 @@ li a {
     position: relative;
 }
 
-.banner p {
+.text p {
     position: absolute;
     top: 10%;
     left: 8%;
@@ -326,7 +326,7 @@ li a {
     font-size: 2rem;
 }
 
-.banner marquee {
+.text marquee {
     position: absolute;
     right: 0px;
     top: 30%;
@@ -335,7 +335,7 @@ li a {
     font-size: 2rem;
 }
 
-.banner button {
+.text button {
     position: absolute;
     bottom: 35%;
     left: 8%;
